@@ -2,3 +2,52 @@ body{
     background: url(/assets/img/background.jpg);
     background-size: cover;
 }
+
+#container {
+    height: 600px;
+    width: 770px;
+    background-color: #937BCA;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+
+}
+
+#container header{
+    color: white;
+    padding: 40px;
+    font-size: 21px;
+
+}
+
+.name{
+    width: 170px;
+    height: 40px;
+    margin: 6px;
+    background: rgba(82, 80, 119, 0.7);
+    border-radius: 9px;
+    border: none;
+
+}
+
+.textbox{
+    width: 360px;
+    height: 40px;
+    margin-top: 10px;
+    background: rgba(82, 80, 119, 0.7);
+    border-radius: 9px;
+    border: none;
+}
+
+.form{
+    height: 100%;
+    width: 100%;    
+}
+
+#TermOfUseCheckBox{
+    margin-right: 344px;
+    margin-top: 20px;
+}
+
