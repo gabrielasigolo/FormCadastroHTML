@@ -18,13 +18,16 @@
             <h2>Sign Up</h2>
         </header>
         <div class="form">
-            <input type="text" class="name">
-            <input type="text" class="name"><br>
-            <input type="text" class="textbox"><br>
-            <input type="text" class="textbox"><br>
-            <input type="text" class="textbox"><br>
-            <input type="checkbox" name="termOfUse">
-            <label>I agree to the Terms of Use</label>
+            <input type="text" class="name" placeholder="First Name">
+            <input type="text" class="name" placeholder="Last Name"><br>
+            <input type="text" class="textbox" placeholder="Email Address"><br>
+            <input type="text" class="textbox" placeholder="Password"><br>
+            <input type="text" class="textbox" placeholder="Password (again)"><br>
+            <div class="TermOfUse">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I agree to the Terms of Use</label>
+            </div>
+            <button id="btnSignUp">Sign Up</button>
         </div>
     </div>
 </body>
